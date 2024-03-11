@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/Lucas8407/kubernetes.git
+    repoURL: https://github.com/Lucas8407/k8s-workshop.git
     targetRevision: HEAD
   destination: 
     server: https://kubernetes.default.svc
