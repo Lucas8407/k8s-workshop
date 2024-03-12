@@ -436,7 +436,7 @@ ingress:
     annotations: { }
     tls: [ ]
     host: localhost
-    path: /minio
+    path: /
     pathType: Prefix
 # Use an extraResources template section to include additional Kubernetes resources
 # with the Helm deployment.
