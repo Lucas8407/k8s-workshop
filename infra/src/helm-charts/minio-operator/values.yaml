@@ -286,7 +286,7 @@ console:
     labels: { }
     annotations: { }
     tls: [ ]
-    host: '127.0.0.1'
+    host: 'console.local'
     path: /minio
     pathType: Prefix
   ###
