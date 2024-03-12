@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Lucas8407/k8s-workshop.git
     targetRevision: HEAD
-    path: infra/src/helm-charts/nginx/
+    path: infra/src/helm-charts/ingress-nginx
     helm:
       valueFiles:
         - values.yaml
