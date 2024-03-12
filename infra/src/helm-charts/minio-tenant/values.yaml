@@ -421,22 +421,22 @@ tenant:
 # Set the keys to conform to the Ingress controller and configuration of your choice.
 ingress:
   api:
-    enabled: false
+    enabled: true
     ingressClassName: ""
     labels: { }
     annotations: { }
     tls: [ ]
     host: localhost
-    path: /minio/tenant
+    path: /
     pathType: Prefix
   console:
-    enabled: false
-    ingressClassName: ""
+    enabled: true
+    ingressClassName: "nginx"
     labels: { }
     annotations: { }
     tls: [ ]
     host: localhost
-    path: /minio/console
+    path: /minio
     pathType: Prefix
 # Use an extraResources template section to include additional Kubernetes resources
 # with the Helm deployment.
