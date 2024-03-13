@@ -284,7 +284,9 @@ console:
     enabled: true
     ingressClassName: "nginx"
     labels: { }
-    annotations: { nginx.ingress.kubernetes.io/rewrite-target: /operator}
+    annotations: { 
+      nginx.ingress.kubernetes.io/rewrite-target: /
+    }
     tls: [ ]
     host: 'localhost'
     path: /operator
