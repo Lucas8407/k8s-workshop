@@ -427,16 +427,16 @@ ingress:
     annotations: { }
     tls: [ ]
     host: localhost
-    path: /minio
+    path: /
     pathType: Prefix
   console:
-    enabled: true
-    ingressClassName: "nginx"
+    enabled: false
+    ingressClassName: ""
     labels: { }
     annotations: {  }
     tls: [ ]
     host: localhost
-    path: /tenant
+    path: /
     pathType: Prefix
 # Use an extraResources template section to include additional Kubernetes resources
 # with the Helm deployment.
