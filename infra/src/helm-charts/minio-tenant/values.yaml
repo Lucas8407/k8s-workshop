@@ -433,10 +433,10 @@ ingress:
     enabled: true
     ingressClassName: "nginx"
     labels: { }
-    annotations: { }
+    annotations: {  }
     tls: [ ]
     host: localhost
-    path: /
+    path: /tenant
     pathType: Prefix
 # Use an extraResources template section to include additional Kubernetes resources
 # with the Helm deployment.
