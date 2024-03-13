@@ -285,12 +285,12 @@ console:
     ingressClassName: "nginx"
     labels: { }
     annotations: {
-      nginx.ingress.kubernetes.io/rewrite-target: /$2
+      nginx.ingress.kubernetes.io/rewrite-target: /$1
     }
     tls: [ ]
     host: 'localhost'
-    path: /operator
-    pathType: Prefix
+    path: /something(/|$)(.*)
+    pathType: ImplementationSpecific
   ###
   # An array of `Volumes <https://kubernetes.io/docs/concepts/storage/volumes/>`__ which the Operator Console can mount to pods.
   #
