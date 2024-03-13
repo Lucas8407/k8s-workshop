@@ -291,7 +291,7 @@ console:
     tls: [ ]
     host: 'localhost'
     path: /operator(/|$)(.*)
-    pathType: Prefix
+    pathType: ImplementationSpecific
   ###
   # An array of `Volumes <https://kubernetes.io/docs/concepts/storage/volumes/>`__ which the Operator Console can mount to pods.
   #
