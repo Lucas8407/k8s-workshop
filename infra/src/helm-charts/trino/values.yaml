@@ -192,7 +192,7 @@ additionalCatalogs:
      hive.allow-drop-table=true
      hive.s3.aws-access-key=minio
      hive.s3.aws-secret-key=minio123
-     hive.s3.endpoint=http://minio.deepstorage.svc.Cluster.local
+     hive.s3.endpoint=http://minio.deepstorage.svc.Cluster.local:9090
      hive.s3.path-style-access=true
      hive.s3.ssl.enabled=false
      hive.allow-add-column=true
